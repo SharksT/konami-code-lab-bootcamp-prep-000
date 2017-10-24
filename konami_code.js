@@ -13,7 +13,8 @@ function init() {
         index++;
         alert(index);
         if (index === code.length) {
-          console.log("Hurray!")
+          console.log("Hurray!");
+          delete window.alert;
           alert("Hurray!");
           index = 0;
         }
