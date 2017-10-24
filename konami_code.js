@@ -11,6 +11,7 @@ function init() {
       console.log(key)
       if (key === code[index]) {
         index++;
+        alert(index);
         if (index === code.length) {
           alert("Hurray!");
           index = 0;
