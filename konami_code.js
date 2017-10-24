@@ -22,7 +22,3 @@ function init() {
       }
     }
   }
-
-
-
-}
