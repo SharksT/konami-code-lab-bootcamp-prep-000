@@ -5,8 +5,8 @@ function init() {
   let index = 0;
   const input = document.querySelector('input')
 
-  input.addEventListener('keydown',function(e) {
-    function onKeyDownHandler(e) {
+  input.addEventListener('keydown',function onKeyDownHandler(e) {
+   
 
       const key = parseInt(e.detail || e.which);
 
