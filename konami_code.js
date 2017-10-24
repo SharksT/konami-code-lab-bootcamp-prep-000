@@ -6,7 +6,7 @@ function init() {
   const input = document.querySelector('input')
 
   input.addEventListener('keydown',function onKeyDownHandler(e) {
-   
+
 
       const key = parseInt(e.detail || e.which);
 
