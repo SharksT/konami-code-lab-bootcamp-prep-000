@@ -14,7 +14,6 @@ function init() {
         alert(index);
         if (index === code.length) {
           console.log("Hurray!");
-          delete window.alert;
           alert("Hurray!");
           index = 0;
         }
