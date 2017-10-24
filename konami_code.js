@@ -13,7 +13,7 @@ function init() {
         index++;
         if (index === code.length) {
           console.log("Hurray!");
-          window.alert("Hurray!");
+          alert("Hurray!");
           index = 0;
         }
       }
